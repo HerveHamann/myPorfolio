@@ -20,8 +20,10 @@ const Modale = () => {
 
   return (
     <div className="modale-container">
-      <img src={wolf1} alt="frozen wolf" className="wolf"></img>
-      <h1 className={text !== "" ? "modale-text" : ""}>{text}</h1>
+      <div className="container">
+        <img src={wolf1} alt="frozen wolf" className="wolf"></img>
+        <h1 className={text !== "" ? "modale-text" : ""}>{text}</h1>
+      </div>
     </div>
   );
 };

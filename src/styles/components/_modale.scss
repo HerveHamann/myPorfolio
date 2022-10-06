@@ -2,24 +2,27 @@
   height: 100vh;
   width: 100%;
   background: #000046;
-  position: relative;
 
-  .modale-text {
-    position: absolute;
-    left: 45%;
-    top: 47%;
-    font-size: 96px;
-    background: linear-gradient(to right, #ff5f6d, #ffc371);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    user-select: none;
-    animation: apparition 1500ms both ease-in-out 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    .modale-text {
+      margin-top: 50px;
+      margin-left: 25px;
+
+      font-size: 96px;
+      background: linear-gradient(to right, #ff5f6d, #ffc371);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      user-select: none;
+      animation: apparition 1500ms both ease-in-out 4;
+    }
   }
-
   .wolf {
-    position: absolute;
-    left: 33%;
-    top: 33%;
     user-select: none;
     background: linear-gradient(to right, #ff5f6d, #ffc371);
   }
