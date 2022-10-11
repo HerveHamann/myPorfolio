@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import wolf1 from "../assets/img/wolf1.svg";
+import wolf from "../assets/img/wolf.svg";
 
 const message = ["Hervé Hamann", "Développeur Front End", "Javascript React", "Bienvenue"];
 
@@ -21,7 +21,7 @@ const Modale = () => {
   return (
     <div className="modale-container">
       <div className="container">
-        <img src={wolf1} alt="frozen wolf" className="wolf"></img>
+        <img src={wolf} alt="wolf" className="wolf"></img>
         <h1 className={text !== "" ? "modale-text" : ""}>{text}</h1>
       </div>
     </div>

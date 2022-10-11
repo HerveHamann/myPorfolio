@@ -9,7 +9,7 @@ const ParticlesComponent = () => {
       background: {},
       fullScreen: {
         enable: true,
-        zIndex: 0,
+        zIndex: 9,
       },
       interactivity: {
         events: {
@@ -39,7 +39,7 @@ const ParticlesComponent = () => {
           color: "#ffc371",
           enable: true,
           distance: 100,
-          widtn: 1,
+          width: 1,
         },
         move: {
           direction: "right",
