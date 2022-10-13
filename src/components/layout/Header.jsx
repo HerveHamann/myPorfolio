@@ -14,7 +14,6 @@ const Header = () => {
         <li>Stack</li>
         <li>Projets</li>
         <li>Contact</li>
-        <li>Loisirs</li>
       </ul>
     </div>
   );

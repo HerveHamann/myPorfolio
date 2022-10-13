@@ -11,6 +11,7 @@
 $color-1: #ff5f6d;
 $color-2: #ffc371;
 $color-3: #000046;
+$color-4: #f8f8ff;
 
 // $color-4: #1cb5e0;/// pas forcément utilisée
 // $color-5: #00b09b;/// pas forcément utilisée
@@ -22,3 +23,10 @@ $color-3: #000046;
 $font-1: "Lato", sans-serif;
 $font-2: "Roboto", sans-serif;
 // $font-3: "Montserrat", sans-serif; /// pas forcément utilisée à test
+
+* {
+  font-family: $font-1;
+}
+h2 {
+  font-family: $font-2;
+}
