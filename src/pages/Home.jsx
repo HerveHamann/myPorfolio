@@ -1,4 +1,5 @@
 import Header from "../components/layout/Header";
+import Philosophy from "../components/Philosophy";
 import Presentation from "../components/Presentation";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Header />
       <Presentation />
+      <Philosophy />
     </div>
   );
 };

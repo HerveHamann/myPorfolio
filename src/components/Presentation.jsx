@@ -3,15 +3,17 @@ import photoHerve from "../assets/img/photoHerve.png";
 const Presentation = () => {
   return (
     <section className="presentation-section">
-      <h2>Présentation</h2>
       <div className="container">
-        <p>
-          Bonjour! Je m'appelle <span>Hervé</span>,
-          <br />
-          Je suis développeur <span> front-end </span> ,
-          <br />
-          Spécialisé en <span>Javascript</span> et <span>React</span>.
-        </p>
+        <div className="text-container">
+          <p>Bonjour, je m'appelle</p>
+          <h1>Hervé Hamann</h1>
+          <h2>Je conte des histoires avec du code</h2>
+          <p>
+            Je suis développeur front-end, je veux créer des expériences,
+            <br /> des aventures uniques qui laissent leurs marques
+            <br /> sur ceux qui voyagent à travers mes histoires.
+          </p>
+        </div>
 
         <img className="photo" src={photoHerve} alt="Hervé" />
       </div>
