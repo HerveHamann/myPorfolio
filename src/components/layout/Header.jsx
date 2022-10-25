@@ -5,13 +5,13 @@ const Header = () => {
     <div className="header">
       <div className="logocontainer">
         <img src={wolfLogo} alt="wolfLogo" className="wolf" />
-        <span>Hervé Hamann- Portfolio</span>
+        <span>Hervé Hamann - Portfolio</span>
       </div>
 
       <ul>
         <li>Présentation</li>
-        <li>Philosopie</li>
-        <li>Stack</li>
+        <li>A propos</li>
+        <li>Stack & Skills</li>
         <li>Projets</li>
         <li>Contact</li>
       </ul>

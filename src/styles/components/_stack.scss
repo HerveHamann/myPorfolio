@@ -1,0 +1,56 @@
+.stack {
+  width: 100%;
+  height: 100vh;
+  background: $color-5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $color-2;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    height: 90vh;
+
+    .bubble {
+      background-color: $color-3;
+      width: 477px;
+      height: 477px;
+      border-radius: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      span {
+        margin-top: 3%;
+        width: 100%;
+        font-size: 32px;
+        font-weight: $font-weight-3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      ul {
+        li {
+          margin: 5% 0 0 12%;
+          font-size: 24px;
+          font-weight: $font-weight-3;
+        }
+      }
+      svg {
+        width: 26%;
+      }
+    }
+    h2 {
+      height: 48px;
+      font-size: 48px;
+      font-weight: $font-weight-3;
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

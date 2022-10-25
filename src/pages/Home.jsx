@@ -1,13 +1,17 @@
 import Header from "../components/layout/Header";
-import Philosophy from "../components/Philosophy";
 import Presentation from "../components/Presentation";
+import About from "../components/About";
+import Transition from "../components/Transition";
+import Stack from "../components/Stack";
 
 const Home = () => {
   return (
     <div>
       <Header />
       <Presentation />
-      <Philosophy />
+      <Transition />
+      <About />
+      <Stack />
     </div>
   );
 };

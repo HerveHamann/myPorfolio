@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   .container {
-    // user-select: none;
     display: flex;
     justify-content: space-around;
     width: 60%;
@@ -14,8 +14,6 @@
       line-height: 2;
     }
     p {
-      color: $color-3;
-
       font-size: 24px;
     }
 

@@ -14,7 +14,7 @@ function App() {
     <div>
       {showIntro === true ? <Particles /> : ""}
       {showIntro === true ? <Modale /> : ""}
-      <Home />
+      {showIntro === false ? <Home /> : ""}
     </div>
   );
 }
