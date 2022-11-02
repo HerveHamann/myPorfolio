@@ -1,7 +1,6 @@
 import React from "react";
 
 import desktop5 from "../assets/img/desktop5.jpg";
-import desktop6 from "../assets/img/desktop6.jpg";
 
 const About = () => {
   return (
@@ -9,8 +8,8 @@ const About = () => {
       <div className="container">
         <img src={desktop5} alt="desktop" className="desktop" />
         <div className="text-container">
+          <h2> A propos </h2>
           <p>
-            <h2> A propos </h2>
             <br />
             Jeune reconverti dans la Tech de 34 ans. J'ai décidé de me spécialiser dans le développement front-end. Mon
             but est de créer des sites web et des applications uniques et innovantes. Ma philosophie s'articule en 3

@@ -15,8 +15,6 @@
       border-radius: 50%;
       width: 60px;
       height: 60px;
-      //   background: linear-gradient(to bottom, $color-1, $color-4);
-
       background: $color-1;
       animation: sphere 3s both ease-in-out infinite;
     }
@@ -31,8 +29,6 @@
       border-radius: 50%;
       width: 35px;
       height: 35px;
-      //   background: linear-gradient(to bottom, $color-4, $color-2);
-
       background: $color-1;
       animation: sphere 3s 0.2s both ease-in-out infinite;
     }
@@ -47,15 +43,12 @@
       border-radius: 50%;
       width: 17px;
       height: 17px;
-      //   background: $color-3;
-
       background: $color-1;
       animation: sphere 3s 0.4s both ease-in-out infinite;
     }
   }
 }
-//utiliser animation sphere ou voir les autres
-// ou pas d'animation: mettre juste les colors background
+
 @keyframes sphere {
   0% {
     background: $color-1;
@@ -65,23 +58,5 @@
   }
   66% {
     background: $color-3;
-  }
-}
-@keyframes sphere-apparition {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes sphere-translation {
-  0% {
-    transform: translateX(10000%);
-  }
-
-  100% {
-    transform: translateX(0%);
   }
 }
