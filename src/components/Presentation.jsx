@@ -11,7 +11,7 @@ const Presentation = () => {
           <p>
             Je suis développeur front-end, je veux créer des expériences,
             <br /> des aventures uniques qui laissent leurs marques
-            <br /> sur ceux qui voyagent à travers mes histoires.
+            <br /> sur ceux qui voyagent à travers mes projets.
           </p>
         </div>
 

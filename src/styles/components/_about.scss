@@ -21,13 +21,14 @@
       }
       span {
         color: $color-5;
-        font-size: 24px;
+        font-size: 32px;
         font-weight: $font-weight-3;
       }
       p {
-        font-size: 20px;
+        font-size: 24px;
         color: $color-2;
         margin-bottom: 25px;
+        word-spacing: 3px;
       }
     }
     .desktop {

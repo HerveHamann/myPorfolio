@@ -23,6 +23,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+
       span {
         margin-top: 3%;
         width: 100%;
@@ -33,7 +34,10 @@
         align-items: center;
       }
       ul {
+        line-height: 1.5;
         li {
+          position: relative;
+          top: 30px;
           margin: 5% 0 0 12%;
           font-size: 24px;
           font-weight: $font-weight-3;

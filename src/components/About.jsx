@@ -20,7 +20,7 @@ const About = () => {
             <span> Comprendre</span>
             <br />
             Depuis l'enfance, j'ai toujours été curieux d'apprendre ce qui m'a conduit à m'intéresser à une multitude de
-            sujet, sciences et droit à travers mes études ou histoire et généalogie à travers mes loisirs. Le
+            sujets, sciences et droit à travers mes études ou histoire et généalogie à travers mes loisirs. Le
             développement web nécéssite un apprentissage continuel pour se perfectionner et j'en suis ravi.
           </p>
           <p>
