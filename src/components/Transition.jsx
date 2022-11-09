@@ -2,7 +2,7 @@ import React from "react";
 
 const Transition = () => {
   return (
-    <div className="transition-container">
+    <div className="transition-container" data-scroll-section>
       <div className="great-sphere-container">
         <div className="great-sphere"></div>
         <div className="great-sphere"></div>

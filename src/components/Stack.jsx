@@ -2,7 +2,7 @@ import React from "react";
 
 const Stack = () => {
   return (
-    <section className="stack">
+    <section className="stack" data-scroll-section>
       <div className="container">
         <div className="bubble">
           <span>Languages</span>

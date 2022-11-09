@@ -9,9 +9,11 @@
     display: flex;
     justify-content: space-around;
     width: 60%;
+
     .text-container {
       color: $color-3;
       line-height: 2;
+      perspective: 900px;
     }
     p {
       font-size: 24px;
@@ -20,26 +22,55 @@
 
     h1 {
       font-size: 96px;
-
       font-weight: $font-weight-3;
       color: $color-5;
     }
     h2 {
       font-size: 48px;
-
       font-weight: $font-weight-3;
       color: $color-4;
     }
+
+    .appear {
+      opacity: 0;
+      transform: translateY(100%) rotateX(-80deg);
+      transform-origin: top center;
+      transform-style: preserve-3d;
+      transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    .hello.appear.is-inview {
+      transition-delay: 1s;
+      opacity: 1;
+      transform: none;
+    }
+    h1.appear.is-inview {
+      transition-delay: 1.5s;
+      opacity: 1;
+      transform: none;
+    }
+    h2.appear.is-inview {
+      transition-delay: 2.5s;
+      opacity: 1;
+      transform: none;
+    }
+    p.appear.is-inview {
+      transition-delay: 3s;
+      opacity: 1;
+      transform: none;
+    }
   }
-  .container ::selection {
-    color: $color-4;
-    background-color: $color-3;
-  }
+
   .photo {
+    opacity: 0;
+    transition: 1s opacity ease-in-out;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     border: $color-2 5px solid;
+  }
+  .photo.is-inview {
+    transition-delay: 0.5s;
+    opacity: 1;
   }
 }
 .presentation-section::before {
@@ -52,4 +83,12 @@
   background: linear-gradient(to left, $color-1, $color-1 2%, $color-2 35%);
   clip-path: polygon(100% -300%, 65% 100%, 100% 100%);
   z-index: -1;
+
+  transform: translateX(100%);
+
+  transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.is-inview.presentation-section::before {
+  transition-delay: 0s;
+  transform: none;
 }
