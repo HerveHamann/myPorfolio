@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="about-section" data-scroll-section data-scroll data-scroll-repeat="true">
       <div className="container">
-        <img src={desktop5} alt="desktop" className="desktop" />
+        {/* <img src={desktop5} alt="desktop" className="desktop" /> */}
         <div className="text-container">
           <h2> A propos </h2>
           <p>

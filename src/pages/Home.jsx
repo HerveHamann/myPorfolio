@@ -7,6 +7,7 @@ import Secondtrans from "../components/Secondtrans";
 import Projets from "../components/Projets";
 import Data from "../Data";
 import useLocoScroll from "../hooks/useLocoScroll";
+import Firsttrans from "../components/Firsttrans";
 
 const Home = () => {
   useLocoScroll();
@@ -14,7 +15,8 @@ const Home = () => {
     <div className="home" data-scroll-container id="main-container">
       <Header />
       <Presentation />
-      <Transition />
+      {/* <Transition /> */}
+      <Firsttrans />
       <About />
       <Secondtrans />
       <Stack />

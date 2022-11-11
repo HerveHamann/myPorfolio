@@ -72,7 +72,7 @@ const Data = [
     description: "Débugging et testing d'une application SaaS RH.",
     technologies: " javascript, jest, git, github.",
     technique:
-      "Débugging de 4 bugs signalés, réalisation de tests unitaires et tests d'intégration pour atteindre une couverture globale de 90% du projet. Réalisation d'un plan de test end-to-end. ",
+      "Correction de 4 bugs signalés, réalisation de tests unitaires et tests d'intégration pour atteindre une couverture globale de 90% du projet. Réalisation d'un plan de test end-to-end. ",
     image: Billed,
     siteurl: "",
     githuburl: "https://github.com/HerveHamann/Billed-app-FR-Front",

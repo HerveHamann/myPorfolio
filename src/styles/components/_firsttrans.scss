@@ -1,0 +1,85 @@
+.firsttrans-container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  background: $color-3;
+  position: relative;
+
+  .sun {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to top, $color-1 50%, $color-2 75%);
+    z-index: 3;
+    position: relative;
+    left: 20%;
+    top: 25%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    transition: 7s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .sun::after {
+    content: "";
+    position: absolute;
+    top: 47%;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: $color-3;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 100% 10.5%, 100% 100%, 0% 100%);
+  }
+
+  .sun.is-inview {
+    transition-delay: 1.5s;
+    transform: translateY(100%);
+  }
+  .cache {
+    position: relative;
+    left: 11.5%;
+    top: 54%;
+    width: 220px;
+    height: 200px;
+    clip-path: polygon(0% 0%, 100% 10.5%, 100% 100%, 0% 100%);
+    background: $color-3;
+    z-index: 10;
+  }
+}
+.firsttrans-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(to left, $color-1, $color-1 2%, $color-2 35%);
+  z-index: 0;
+  clip-path: polygon(0.2% 72%, 0% 0%, 100% 0%, 100% 61.5%, 83% 74.3%, 66.2% 68.3%, 46.1% 54%, 34.9% 68%, 17.4% 51.5%);
+}
+
+.firsttrans-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  background: #fff;
+  z-index: 1;
+  clip-path: polygon(0.2% 72%, 0% 72%, 0% 0%, 12.8% 0%, 26.9% 0%, 65.1% 0%, 46.1% 54%, 34.9% 68%, 17.4% 51.5%);
+}
+
+.is-inview.firsttrans-container::after {
+  animation: sundown 2.5s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+@keyframes sundown {
+  0% {
+    background: linear-gradient(to left, $color-1, $color-1 2%, $color-2 35%);
+  }
+  75% {
+    background: linear-gradient(to left, $color-1, $color-1 2%, $color-2 35%);
+  }
+
+  100% {
+    background: #fff;
+  }
+}
