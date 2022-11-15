@@ -10,7 +10,10 @@ const Projets = ({ Data }) => {
   return (
     <section className="project-section" data-scroll-section>
       <div className="project-section-header">
-        <h2>Mes projets :</h2>
+        <h2 className="appear" data-scroll data-scroll-repeat="true">
+          Mes projets :
+        </h2>
+        <div className="sun"></div>
         <button
           onClick={() => {
             DataUsed === Data ? setDataUsed(bestData) : setDataUsed(Data);
@@ -20,7 +23,7 @@ const Projets = ({ Data }) => {
       </div>
       <div className="project-wrapper">
         {DataUsed.map((projet) => (
-          <div className="project-container" key={projet.id}>
+          <div className="project-container" key={projet.id} data-scroll data-scroll-repeat="true">
             {projet.siteurl ? (
               <a href={projet.siteurl} rel="noreferrer" target="_blank">
                 <img src={projet.image} alt={projet.title} />
@@ -34,7 +37,7 @@ const Projets = ({ Data }) => {
                 {projet.id + 1}. {projet.title}
               </h3>
               <p>
-                Description : <span>{projet.description} </span>
+                En résumé : <span>{projet.description} </span>
               </p>
               <br />
               <p>
@@ -46,7 +49,7 @@ const Projets = ({ Data }) => {
               </p>
               {projet.nosite ? <span className="no-disponibility">Note: {projet.nosite}</span> : ""}{" "}
               <a href={projet.githuburl} rel="noreferrer" target="_blank">
-                <svg width="75px" height="75px" viewBox="0 0 128 128">
+                <svg width="50px" height="50px" viewBox="0 0 128 128">
                   <g fill="#000046">
                     <path
                       fillRule="evenodd"
@@ -58,7 +61,7 @@ const Projets = ({ Data }) => {
               </a>
               {projet.npmpackage ? (
                 <a href={projet.npmpackage} rel="noreferrer" target="_blank">
-                  <svg width="75px" height="75px" viewBox="0 0 128 128">
+                  <svg width="50px" height="50px" viewBox="0 0 128 128">
                     <path
                       fill="#000046"
                       d="M2 38.5h124v43.71H64v7.29H36.44v-7.29H2zm6.89 36.43h13.78V53.07h6.89v21.86h6.89V45.79H8.89zm34.44-29.14v36.42h13.78v-7.28h13.78V45.79zm13.78 7.29H64v14.56h-6.89zm20.67-7.29v29.14h13.78V53.07h6.89v21.86h6.89V53.07h6.89v21.86h6.89V45.79z"></path>

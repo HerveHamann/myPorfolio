@@ -132,7 +132,8 @@
         opacity: 1;
       }
     }
-    h2 {
+
+    .appear {
       color: $color-3;
       height: 48px;
       font-size: 48px;
@@ -143,15 +144,13 @@
       width: 100%;
       display: flex;
       justify-content: center;
-    }
-    .appear {
       opacity: 0;
       transform: translateY(100%) rotateX(-80deg);
       transform-origin: top center;
       transform-style: preserve-3d;
       transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
     }
-    h2.appear.is-inview {
+    .appear.is-inview {
       transition-delay: 1.5s;
       opacity: 1;
       transform: none;
