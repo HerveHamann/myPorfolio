@@ -8,6 +8,8 @@ import Data from "../Data";
 import useLocoScroll from "../hooks/useLocoScroll";
 import Firsttrans from "../components/Firsttrans";
 import Thirdtrans from "../components/Thirdtrans";
+import Fourthtrans from "../components/Fourthtrans";
+import Contact from "../components/Contact";
 
 const Home = () => {
   useLocoScroll();
@@ -21,6 +23,8 @@ const Home = () => {
       <Stack />
       <Thirdtrans />
       <Projets Data={Data} />
+      <Fourthtrans />
+      <Contact />
     </div>
   );
 };

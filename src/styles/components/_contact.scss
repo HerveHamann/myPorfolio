@@ -1,0 +1,88 @@
+.contact-page-container {
+  width: 100%;
+  height: 100vh;
+  background: $color-3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .contact-container {
+    margin-left: 5vw;
+    width: 70%;
+    height: 100%;
+    background-color: $color-3;
+    display: flex;
+    flex-direction: row;
+
+    .planet {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: translateX(100%) translateY(-10%) scale(0.5);
+      transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+      .planet-body {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        background: linear-gradient(27deg, $color-1 2%, $color-2 40%);
+      }
+      .planet-body::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(190deg, $color-1 10%, $color-2 75%);
+        z-index: 3;
+        border-radius: 10rem 10rem 0 0;
+        width: 200px;
+        height: 100px;
+      }
+      .planet-ring {
+        width: 375px;
+        height: 375px;
+        border: $color-4 solid 50px;
+        border-radius: 50%;
+        position: absolute;
+        transform: rotate3d(1, 0.3, 0, 75deg);
+        filter: blur(1px);
+      }
+      .planet-ring-two {
+        filter: blur(1px);
+        width: 450px;
+        height: 450px;
+        border: $color-5 solid 25px;
+        border-radius: 50%;
+        position: absolute;
+        transform: rotate3d(1, 0.3, 0, 75deg);
+      }
+    }
+    .planet.is-inview {
+      transition-delay: 1s;
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .close-sun {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    transform: translateX(50%) scale(0.5);
+    align-self: center;
+    box-shadow: inset 0 0 50px #fff, inset 20px 0 80px $color-2, inset -20px 0 80px $color-2,
+      inset 20px 0 300px $color-2, inset -20px 0 300px $color-1, 0 0 50px $color-2, -10px 0 70px $color-2,
+      10px 0 70px $color-2;
+    background-color: $color-1;
+    opacity: 0;
+    transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .close-sun.is-inview {
+    transition-delay: 0.5s;
+    opacity: 1;
+    transform: translateX(50%) scale(1);
+  }
+}

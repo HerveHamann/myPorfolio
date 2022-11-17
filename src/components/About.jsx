@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   const stars = Array.from(Array(35).keys());
-  console.log(stars);
+
   return (
     <section className="about-section" data-scroll-section>
       <div className="nightsky-background">

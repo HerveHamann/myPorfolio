@@ -4,7 +4,7 @@ import Modale from "./components/Modale";
 import Home from "./pages/Home";
 
 function App() {
-  const [showIntro, SetShowIntro] = useState(true);
+  const [showIntro, SetShowIntro] = useState(false);
   useEffect(() => {
     setTimeout(() => {
       SetShowIntro(false);
