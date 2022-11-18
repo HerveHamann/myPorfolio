@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <section className="contact-page-container" data-scroll-section>
+    <section id="contact" className="contact-page-container" data-scroll-section>
       <div className="contact-container">
         <div className="planet" data-scroll data-scroll-repeat="true">
           <div className="planet-body"></div>

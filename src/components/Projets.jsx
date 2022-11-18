@@ -8,7 +8,7 @@ const Projets = ({ Data }) => {
   );
 
   return (
-    <section className="project-section" data-scroll-section>
+    <section id="projet" className="project-section" data-scroll-section>
       <div className="project-section-header">
         <h2 className="appear" data-scroll data-scroll-repeat="true">
           Mes projets :

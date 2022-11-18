@@ -2,7 +2,12 @@ import React from "react";
 import photoHerve from "../assets/img/photoHerve.png";
 const Presentation = () => {
   return (
-    <section className="presentation-section" data-scroll-section data-scroll data-scroll-repeat="true">
+    <section
+      id="presentation"
+      className="presentation-section"
+      data-scroll-section
+      data-scroll
+      data-scroll-repeat="true">
       <div className="container">
         <div className="text-container">
           <p className="appear hello" data-scroll data-scroll-repeat="true">

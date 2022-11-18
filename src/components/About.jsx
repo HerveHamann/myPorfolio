@@ -4,7 +4,7 @@ const About = () => {
   const stars = Array.from(Array(35).keys());
 
   return (
-    <section className="about-section" data-scroll-section>
+    <section id="about" className="about-section" data-scroll-section>
       <div className="nightsky-background">
         {stars.map((star) => (
           <div className="star" data-scroll data-scroll-repeat="true" id={star} key={star}></div>

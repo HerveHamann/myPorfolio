@@ -2,7 +2,7 @@ import React from "react";
 import comet from "../assets/img/comet.svg";
 const Stack = () => {
   return (
-    <section className="stack" data-scroll-section>
+    <section id="stack" className="stack" data-scroll-section>
       <div className="container">
         <h2 className="appear" data-scroll data-scroll-repeat="true">
           Stack & Skills

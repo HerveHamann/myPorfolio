@@ -14,16 +14,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     p {
       color: $color-4;
       font-size: 48px;
       font-weight: $font-weight-3;
+      opacity: 0;
+      transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
     }
     h2 {
       font-size: 96px;
       font-weight: $font-weight-3;
       color: $color-5;
+      opacity: 0;
+      transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    p.is-inview {
+      transform: none;
+      transition-delay: 2s;
+      opacity: 1;
+    }
+    h2.is-inview {
+      transform: none;
+      transition-delay: 2s;
+      opacity: 1;
     }
   }
 
@@ -33,6 +46,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
+    transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
     p {
       color: $color-5;
       font-size: 24px;
@@ -105,28 +120,6 @@
         transition: 500ms;
       }
 
-      //A retirer si pas de probleme avec les systeme focus/blur
-      //active on focus element
-      // input:focus + .input-inactive {
-      //   background: linear-gradient(to right, $color-1, $color-2);
-      //   background-clip: text;
-      //   -webkit-text-fill-color: transparent;
-      //   top: -5px;
-      // }
-      // input:focus ~ .input-underline::before {
-      //   width: 100%;
-      // }
-
-      // textarea:focus + .input-inactive {
-      //   background: linear-gradient(to right, $color-1, $color-2);
-      //   background-clip: text;
-      //   -webkit-text-fill-color: transparent;
-      //   top: -5px;
-      // }
-      // textarea:focus ~ .textaera-underline::before {
-      //   width: 100%;
-      // }
-      //active elements
       .input-active {
         align-self: flex-start;
         font-size: 32px;
@@ -193,5 +186,10 @@
         10px 0 20px $color-2;
       color: $color-1;
     }
+  }
+  form.is-inview {
+    transform: none;
+    transition-delay: 2s;
+    opacity: 1;
   }
 }

@@ -59,6 +59,8 @@ const ContactForm = () => {
       errors.message = "Veuillez rédiger votre message";
     } else if (values.message.length > 400) {
       errors.message = "400 caractères maximum";
+    } else if (values.message.length < 30) {
+      errors.message = "30 caractères minimum";
     }
     return errors;
   };
@@ -71,16 +73,18 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="form-container">
+    <div className="form-container" data-scroll-container>
       <div className="title-wrapper">
-        <p>
+        <p data-scroll data-scroll-repeat="true">
           Un projet ?
           <br />
           Un besoin de developpeur ?
         </p>
-        <h2>Contactez moi</h2>
+        <h2 data-scroll data-scroll-repeat="true">
+          Contactez moi
+        </h2>
       </div>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} data-scroll data-scroll-repeat="true">
         <div className="text-field">
           <input
             type="text"
