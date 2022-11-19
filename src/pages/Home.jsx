@@ -10,6 +10,7 @@ import Firsttrans from "../components/Firsttrans";
 import Thirdtrans from "../components/Thirdtrans";
 import Fourthtrans from "../components/Fourthtrans";
 import Contact from "../components/Contact";
+import Footer from "../components/layout/Footer";
 
 const Home = () => {
   useLocoScroll();
@@ -17,7 +18,13 @@ const Home = () => {
     <div className="home" data-scroll-container id="main-container">
       <div className="home-button">
         <a href="#header" data-scroll-to>
-          <svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            className="arrowup"
+            width="100px"
+            height="100px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <path
               d="M15.5 16.5L12 13L8.5 16.5"
               stroke="#ffc371"
@@ -45,6 +52,7 @@ const Home = () => {
       <Projets Data={Data} />
       <Fourthtrans />
       <Contact />
+      <Footer />
     </div>
   );
 };

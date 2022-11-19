@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 580px;
+  position: relative;
+  background: $color-3;
+  .maybe-earth {
+    transform: translateY(35%);
+    position: absolute;
+  }
+
+  .second-earth {
+    transform: scaleX(-1) translateY(30%);
+    position: absolute;
+  }
+  .astronaut-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10vw;
+    top: -5vh;
+    .astronaut {
+      z-index: 50;
+    }
+    .shadow {
+      position: relative;
+      background: black;
+      filter: blur(5px);
+      box-shadow: -10px 35px 25px black;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      transform: rotate3d(1, 0, 0, 75deg);
+      position: relative;
+      top: -90px;
+      left: 5px;
+      z-index: 5;
+    }
+  }
+  p {
+    color: $color-3;
+    position: relative;
+    top: 8vh;
+    right: 12vw;
+    font-weight: $font-weight-3;
+    font-size: 28px;
+  }
+}

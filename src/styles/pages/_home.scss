@@ -13,5 +13,26 @@
     left: 95vw;
     z-index: 100;
     background: $color-1;
+    .arrowup:hover {
+      animation: arrowmove 2.5s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+  }
+  .home-button:hover {
+    border: 3px solid $color-3;
+  }
+}
+@keyframes arrowmove {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  51% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
