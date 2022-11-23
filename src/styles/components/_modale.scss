@@ -10,10 +10,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   .container {
     display: flex;
     align-items: center;
     width: 33%;
+    height: 50%;
+    @include laptopL {
+      flex-direction: column;
+    }
     .modale-text {
       margin-top: 50px;
       margin-left: 25px;
@@ -23,11 +28,22 @@
       -webkit-text-fill-color: transparent;
       user-select: none;
       animation: apparition 1500ms both ease-in-out 4;
+      @include tablet {
+        font-size: 48px;
+        margin-left: 0px;
+      }
+      @include mobile {
+        font-size: 40px;
+        margin-left: 0px;
+      }
     }
   }
   .wolf {
     user-select: none;
     background: linear-gradient(to right, $color-1, $color-2);
+    @include mobile {
+      width: 150%;
+    }
   }
 }
 
@@ -55,3 +71,7 @@
     z-index: -1;
   }
 }
+
+// @include laptop() {
+//   height: 815px;
+// }

@@ -1,6 +1,7 @@
 import React from "react";
 
 import wolfLogo from "../../assets/img/wolfLogo.svg";
+import Burger from "../Burger";
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         <img src={wolfLogo} alt="wolfLogo" className="wolf" />
         <span>Hervé Hamann - Portfolio</span>
       </div>
-
+      <Burger />
       <ul>
         <li>
           <a href="#presentation" data-scroll-to>

@@ -14,12 +14,14 @@ const Projets = ({ Data }) => {
           Mes projets :
         </h2>
         <div className="sun"></div>
-        <button
-          onClick={() => {
-            DataUsed === Data ? setDataUsed(bestData) : setDataUsed(Data);
-          }}>
-          {DataUsed === Data ? "Voir mes meilleurs projets" : "Voir tous les projets"}
-        </button>
+        <div className="button-container">
+          <button
+            onClick={() => {
+              DataUsed === Data ? setDataUsed(bestData) : setDataUsed(Data);
+            }}>
+            {DataUsed === Data ? "Voir mes meilleurs projets" : "Voir tous les projets"}
+          </button>
+        </div>
       </div>
       <div className="project-wrapper">
         {DataUsed.map((projet) => (

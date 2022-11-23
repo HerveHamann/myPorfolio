@@ -5,7 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  @include mobile {
+    height: 1071px;
+  }
   .contact-container {
     margin-left: 5vw;
     width: 70%;
@@ -13,58 +15,185 @@
     background-color: $color-3;
     display: flex;
     flex-direction: row;
-
-    .planet {
-      position: relative;
-      width: 500px;
-      height: 500px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transform: translateX(100%) translateY(-10%) scale(0.5);
-      transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
-      .planet-body {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        position: absolute;
-        background: linear-gradient(27deg, $color-1 2%, $color-2 40%);
-      }
-      .planet-body::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: linear-gradient(190deg, $color-1 10%, $color-2 75%);
-        z-index: 3;
-        border-radius: 10rem 10rem 0 0;
-        width: 200px;
-        height: 100px;
-      }
-      .planet-ring {
-        width: 375px;
-        height: 375px;
-        border: $color-4 solid 50px;
-        border-radius: 50%;
-        position: absolute;
-        transform: rotate3d(1, 0.3, 0, 75deg);
-        filter: blur(1px);
-      }
-      .planet-ring-two {
-        filter: blur(1px);
-        width: 450px;
-        height: 450px;
-        border: $color-5 solid 25px;
-        border-radius: 50%;
-        position: absolute;
-        transform: rotate3d(1, 0.3, 0, 75deg);
-      }
+    @media screen and (max-width: 2180px) {
+      margin-left: 0;
     }
-    .planet.is-inview {
-      transition-delay: 1s;
-      opacity: 1;
-      transform: none;
+    @include tablet {
+      flex-direction: column;
+    }
+    @include tablet {
+      width: 100%;
+    }
+    .side-container {
+      display: flex;
+      flex-direction: column;
+      @include tablet {
+        flex-direction: row;
+      }
+      .planet {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateX(100%) translateY(-10%) scale(0.5);
+        transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        @media screen and (max-width: 2180px) {
+          width: 400px;
+          height: 400px;
+        }
+        @media screen and (max-width: 1740px) {
+          width: 300px;
+          height: 300px;
+        }
+        @include laptopL {
+          width: 200px;
+          height: 200px;
+        }
+        @include mobile {
+          width: 100px;
+          height: 100px;
+        }
+        .planet-body {
+          width: 40%;
+          height: 40%;
+          border-radius: 50%;
+          position: absolute;
+          background: linear-gradient(27deg, $color-1 2%, $color-2 40%);
+        }
+        .planet-body::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: linear-gradient(190deg, $color-1 10%, $color-2 75%);
+          z-index: 3;
+          border-radius: 10rem 10rem 0 0;
+          width: 100%;
+          height: 50%;
+        }
+        .planet-ring {
+          width: 75%;
+          height: 75%;
+          border: $color-4 solid 50px;
+          border-radius: 50%;
+          position: absolute;
+          transform: rotate3d(1, 0.3, 0, 75deg);
+          filter: blur(1px);
+          @media screen and (max-width: 1740px) {
+            border: $color-4 solid 30px;
+          }
+          @include laptopL {
+            border: $color-4 solid 18px;
+          }
+          @include mobile {
+            border: $color-4 solid 10px;
+          }
+        }
+        .planet-ring-two {
+          filter: blur(1px);
+          width: 90%;
+          height: 90%;
+          border: $color-5 solid 25px;
+          border-radius: 50%;
+          position: absolute;
+          transform: rotate3d(1, 0.3, 0, 75deg);
+          @media screen and (max-width: 1740px) {
+            border: $color-5 solid 10px;
+          }
+          @include laptopL {
+            border: $color-5 solid 10px;
+          }
+          @include mobile {
+            border: $color-5 solid 5px;
+          }
+        }
+      }
+      .planet.is-inview {
+        transition-delay: 1s;
+        opacity: 1;
+        transform: none;
+      }
+      .contact-icons {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        position: relative;
+        opacity: 0;
+        transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        @include tablet {
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .linkedin {
+          background: $color-4;
+          border: #f4f6f0 2px solid;
+          border-radius: 15%;
+          transition: 1000ms;
+          cursor: pointer;
+          @include laptop {
+            width: 100%;
+            height: 50%;
+          }
+          @include tablet {
+            width: 60%;
+            height: 30%;
+          }
+        }
+        .linkedin:hover {
+          box-shadow: inset 0 0 50px #fff, inset 20px 0 80px $color-2, inset -20px 0 80px $color-2,
+            inset 20px 0 300px $color-2, inset -20px 0 300px $color-1, 0 0 50px $color-2, -10px 0 20px $color-2,
+            10px 0 20px $color-2;
+        }
+        .github {
+          background: #f4f6f0;
+          border-radius: 100%;
+          transition: 1000ms;
+          cursor: pointer;
+          @include laptop {
+            width: 100%;
+            height: 50%;
+          }
+          @include tablet {
+            width: 70%;
+            height: 30%;
+          }
+        }
+        .github:hover {
+          box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #fff, inset -20px 0 80px#fff, inset 20px 0 300px $color-2,
+            inset -20px 0 300px #fff, 0 0 50px $color-2, -10px 0 20px $color-2, 10px 0 20px $color-2;
+        }
+        p {
+          padding: 7px 4px;
+          font-size: 44px;
+          font-weight: $font-weight-3;
+          color: #f4f6f0;
+          background: $color-4;
+          border: #f4f6f0 2px solid;
+          border-radius: 15%;
+          transition: 1000ms;
+          cursor: pointer;
+          position: relative;
+          @include laptop {
+            font-size: 22px;
+          }
+        }
+        p:hover {
+          box-shadow: inset 0 0 50px $color-2, inset 20px 0 80px $color-2, inset -20px 0 80px $color-1,
+            inset 20px 0 300px $color-2, inset -20px 0 300px $color-1, 0 0 50px $color-2, -10px 0 20px $color-2,
+            10px 0 20px $color-2;
+        }
+      }
+      .contact-icons.is-inview {
+        transform: none;
+        transition-delay: 2s;
+        opacity: 1;
+      }
     }
   }
   .close-sun {
@@ -76,14 +205,38 @@
     box-shadow: inset 0 0 50px #fff, inset 20px 0 80px $color-2, inset -20px 0 80px $color-2,
       inset 20px 0 300px $color-2, inset -20px 0 300px $color-1, 0 0 50px $color-2, -10px 0 70px $color-2,
       10px 0 70px $color-2;
-
     background-color: $color-1;
     opacity: 0;
     transition: 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    @media screen and (max-width: 2180px) {
+      width: 750px;
+      height: 750px;
+    }
+    @media screen and (max-width: 1740px) {
+      width: 600px;
+      height: 600px;
+    }
+    @include laptopL {
+      width: 400px;
+      height: 400px;
+    }
+    @include laptop {
+      width: 250px;
+      height: 250px;
+      transform: translateX(80%) scale(0.5);
+    }
+    @include tablet {
+      display: none;
+    }
   }
   .close-sun.is-inview {
     transition-delay: 0.5s;
     opacity: 1;
     transform: translateX(50%) scale(1);
+    @include laptop {
+      transition-delay: 0.5s;
+      opacity: 1;
+      transform: translateX(80%) scale(1);
+    }
   }
 }

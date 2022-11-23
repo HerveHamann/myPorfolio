@@ -3,7 +3,6 @@
   min-height: 120px;
   height: 10vh;
   background: $color-3;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,20 +23,36 @@
       background: linear-gradient(to right, $color-1, $color-2);
       background-clip: text;
       -webkit-text-fill-color: transparent;
+      @include laptopL {
+        font-size: 24px;
+      }
+      @include mobile {
+        font-size: 16px;
+      }
     }
   }
   ul {
     display: flex;
     color: $color-4;
     user-select: none;
-
+    margin-top: 22px;
+    @include laptopL {
+      margin-top: 26px;
+    }
+    @include laptop {
+      display: none;
+    }
     li {
       a {
+        font-weight: $font-weight-1;
         color: $color-4;
         font-size: 28px;
-        margin-top: 20px;
         margin-left: 25px;
         cursor: pointer;
+        @include laptopL {
+          font-size: 18px;
+          margin-left: 16px;
+        }
       }
 
       :hover {

@@ -9,57 +9,164 @@
     display: flex;
     justify-content: space-around;
     width: 60%;
+    @include laptopVL {
+      width: 75%;
+    }
+    @include laptopL {
+      width: 95%;
+    }
+    @include laptop {
+      flex-direction: column-reverse;
+    }
 
     .text-container {
       color: $color-3;
       line-height: 2;
       perspective: 900px;
-    }
-    p {
-      font-size: 24px;
-      font-weight: $font-weight-3;
-    }
+      @include laptop {
+        align-self: center;
+      }
 
-    h1 {
-      font-size: 96px;
-      font-weight: $font-weight-3;
-      color: $color-5;
-    }
-    h2 {
-      font-size: 48px;
-      font-weight: $font-weight-3;
-      color: $color-4;
-    }
+      p {
+        font-size: 24px;
+        font-weight: $font-weight-3;
+        @include laptopVL {
+          font-size: 20px;
+        }
+        @include laptopL {
+          font-size: 18px;
+        }
+        @include tablet {
+          font-size: 14px;
+        }
+        @include mobile {
+          font-size: 10px;
+        }
+      }
 
-    .appear {
-      opacity: 0;
-      transform: translateY(100%) rotateX(-80deg);
-      transform-origin: top center;
-      transform-style: preserve-3d;
-      transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-    .hello.appear.is-inview {
-      transition-delay: 1s;
-      opacity: 1;
-      transform: none;
-    }
-    h1.appear.is-inview {
-      transition-delay: 1.5s;
-      opacity: 1;
-      transform: none;
-    }
-    h2.appear.is-inview {
-      transition-delay: 2.5s;
-      opacity: 1;
-      transform: none;
-    }
-    p.appear.is-inview {
-      transition-delay: 3s;
-      opacity: 1;
-      transform: none;
+      h1 {
+        font-size: 96px;
+        font-weight: $font-weight-3;
+        color: $color-5;
+        @include laptopVL {
+          font-size: 72px;
+        }
+        @include tablet {
+          font-size: 32px;
+        }
+        @include mobile {
+          font-size: 24px;
+        }
+      }
+      h2 {
+        font-size: 48px;
+        font-weight: $font-weight-3;
+        color: $color-4;
+        @include laptopVL {
+          font-size: 36px;
+        }
+        @include laptopL {
+          font-size: 32px;
+        }
+        @include tablet {
+          font-size: 18px;
+        }
+        @include mobile {
+          font-size: 14px;
+        }
+      }
+
+      .appear {
+        opacity: 0;
+        transform: translateY(100%) rotateX(-80deg);
+        transform-origin: top center;
+        transform-style: preserve-3d;
+        transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+      .hello.appear.is-inview {
+        transition-delay: 1s;
+        opacity: 1;
+        transform: none;
+      }
+      h1.appear.is-inview {
+        transition-delay: 1.5s;
+        opacity: 1;
+        transform: none;
+      }
+      h2.appear.is-inview {
+        transition-delay: 2.5s;
+        opacity: 1;
+        transform: none;
+      }
+      p.appear.is-inview {
+        transition-delay: 3s;
+        opacity: 1;
+        transform: none;
+      }
+      .discover {
+        display: flex;
+        align-items: center;
+        margin-top: 10vh;
+        perspective: 900px;
+        @include laptop {
+          flex-direction: column;
+          align-items: flex-start;
+          row-gap: 25px;
+          margin-top: 25px;
+        }
+        h2.appear.is-inview {
+          transition-delay: 3.5s;
+          opacity: 1;
+          transform: none;
+        }
+        .arrow-container {
+          background: linear-gradient($color-2, $color-1);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transform: scaleY(-1) translateX(50%);
+          opacity: 0;
+          width: 100px;
+          height: 100px;
+          @include laptop {
+            align-self: center;
+            transform: scaleY(-1) translateX(-100%);
+          }
+          @include tablet {
+            transform: scaleY(-1) translateX(-0%);
+            width: fit-content;
+            height: fit-content;
+            width: 50px;
+            height: 50px;
+          }
+          .arrowdown {
+            animation: arrowmove 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+          }
+        }
+        .arrow-container.is-inview {
+          transition-delay: 4.5s;
+          opacity: 1;
+        }
+
+        @keyframes arrowmove {
+          0% {
+            transform: translateY(0%);
+          }
+          50% {
+            transform: translateY(-50%);
+          }
+          51% {
+            opacity: 0;
+            transform: translateY(50%);
+          }
+          100% {
+            transform: translateY(0%);
+          }
+        }
+      }
     }
   }
-
   .photo {
     opacity: 0;
     transition: 1s opacity ease-in-out;
@@ -67,6 +174,17 @@
     height: 500px;
     border-radius: 50%;
     border: $color-2 5px solid;
+    @include laptopVL {
+      width: 350px;
+      height: 350px;
+    }
+    @include laptop {
+      align-self: center;
+    }
+    @include tablet {
+      width: 200px;
+      height: 200px;
+    }
   }
   .photo.is-inview {
     transition-delay: 0.5s;
@@ -85,6 +203,9 @@
   z-index: -1;
   transform: translateX(100%);
   transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  @include laptop {
+    display: none;
+  }
 }
 
 .is-inview.presentation-section::before {

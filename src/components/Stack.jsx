@@ -158,6 +158,7 @@ const Stack = () => {
               <li>Recharts.js</li>
               <li>Particles.js</li>
               <li>Locomotive.js</li>
+              <li>Email.js</li>
             </ul>
           </div>
         </div>

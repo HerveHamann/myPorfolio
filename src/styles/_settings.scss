@@ -32,3 +32,34 @@ $font-weight-3: 700;
   font-family: $font-3;
   font-weight: $font-weight-2;
 }
+
+@mixin laptopVL {
+  @media screen and (max-width: 2559px) {
+    @content;
+  }
+}
+@mixin laptopL {
+  @media screen and (max-width: 1441px) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (max-width: 1025px) {
+    @content;
+  }
+}
+@mixin laptopmax {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: 769px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and (max-width: 425px) {
+    @content;
+  }
+}

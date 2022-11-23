@@ -6,7 +6,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  @include mobile {
+    height: fit-content;
+  }
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -17,17 +19,36 @@
     color: $color-2;
     perspective: 900px;
 
+    @media screen and (max-width: 2140px) {
+      width: 85%;
+    }
+    @include tablet {
+      height: fit-content;
+
+      margin-bottom: 45px;
+    }
     .meteora-container {
       position: relative;
       width: 400px;
       height: 400px;
-
-      .bubble-container {
-        position: absolute;
-        top: 180px;
-        left: 20px;
+      @media screen and (max-width: 1894px) {
+        width: 350px;
+        height: 350px;
+      }
+      @media screen and (max-width: 1652px) {
+        width: 250px;
+        height: 250px;
+      }
+      @media screen and (max-width: 1182px) {
         width: 200px;
         height: 200px;
+      }
+      .bubble-container {
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        width: 50%;
+        height: 50%;
         box-shadow: inset 0 0 50px #fff, inset 20px 0 80px $color-3, inset -20px 0 80px $color-8,
           inset 20px 0 300px $color-3, inset -20px 0 300px $color-8, 0 0 50px #fff, -10px 0 80px $color-3,
           10px 0 80px $color-8;
@@ -39,16 +60,31 @@
         z-index: -1;
 
         span {
-          padding-top: 25px;
-          font-size: 20px;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          padding-top: 20%;
+          font-size: 18px;
           font-weight: $font-weight-3;
+          @media screen and (max-width: 1652px) {
+            font-size: 12px;
+          }
+          @media screen and (max-width: 1182px) {
+            font-size: 10px;
+          }
         }
         ul {
           line-height: 1.5;
           li {
             margin: 2% 0 0 0;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: $font-weight-3;
+            @media screen and (max-width: 1652px) {
+              font-size: 12px;
+            }
+            @media screen and (max-width: 1182px) {
+              font-size: 10px;
+            }
           }
         }
         svg {
@@ -77,6 +113,8 @@
         position: absolute;
         top: 0px;
         left: 0px;
+        width: 100%;
+        height: 100%;
       }
     }
 
@@ -84,37 +122,72 @@
       position: relative;
       top: 2%;
       left: -5%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
     .meteora-container:nth-child(3) {
       position: relative;
-      top: -15%;
+      top: -13%;
       left: -5%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
 
     .meteora-container:nth-child(4) {
       position: relative;
       top: 10%;
       left: -15%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
     .meteora-container:nth-child(5) {
       position: relative;
       top: 2%;
       left: -13%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
     .meteora-container:nth-child(6) {
       position: relative;
       top: -12%;
       left: 1%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
     .meteora-container:nth-child(7) {
       position: relative;
       top: -3%;
       left: 13%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
     .meteora-container:nth-child(8) {
       position: relative;
       top: -20%;
       left: 13%;
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
     }
 
     .meteora-container.is-inview {
@@ -135,11 +208,10 @@
 
     .appear {
       color: $color-3;
-      height: 48px;
       font-size: 48px;
       position: relative;
-      top: 10%;
-      left: 5%;
+      top: 12%;
+      left: 15%;
       font-weight: $font-weight-3;
       width: 100%;
       display: flex;
@@ -149,6 +221,17 @@
       transform-origin: top center;
       transform-style: preserve-3d;
       transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+      @media screen and (max-width: 1182px) {
+        font-size: 36px;
+      }
+      @media screen and (max-width: 962px) {
+        position: relative;
+        top: 0%;
+        left: 0%;
+      }
+      @include mobile {
+        font-size: 24px;
+      }
     }
     .appear.is-inview {
       transition-delay: 1.5s;

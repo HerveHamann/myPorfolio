@@ -7,45 +7,82 @@
   height: 580px;
   position: relative;
   background: $color-3;
+
   .maybe-earth {
-    transform: translateY(35%);
+    transform: translateY(45%);
     position: absolute;
   }
 
   .second-earth {
-    transform: scaleX(-1) translateY(30%);
+    transform: scaleX(-1) scaleY(100%) translateY(45%);
     position: absolute;
   }
-  .astronaut-container {
+  .footer-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
-    left: 10vw;
-    top: -5vh;
-    .astronaut {
-      z-index: 50;
+    left: 12vw;
+    @include laptopVL {
+      top: 15%;
+      left: 8vh;
     }
-    .shadow {
-      position: relative;
-      background: black;
-      filter: blur(5px);
-      box-shadow: -10px 35px 25px black;
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      transform: rotate3d(1, 0, 0, 75deg);
-      position: relative;
-      top: -90px;
-      left: 5px;
-      z-index: 5;
+    @include tablet {
+      top: 25%;
+      left: 3vh;
+      width: 90vw;
     }
-  }
-  p {
-    color: $color-3;
-    position: relative;
-    top: 8vh;
-    right: 12vw;
-    font-weight: $font-weight-3;
-    font-size: 28px;
+    @include mobile {
+      top: 25%;
+      left: 0vh;
+      width: 99vw;
+    }
+    .astronaut-container {
+      display: flex;
+      flex-direction: column;
+
+      .astronaut {
+        z-index: 50;
+        @include mobile {
+          width: 95%;
+          position: relative;
+          top: 25%;
+        }
+      }
+      .shadow {
+        position: relative;
+        background: black;
+        filter: blur(5px);
+        box-shadow: -10px 35px 25px black;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        transform: rotate3d(1, 0, 0, 75deg);
+        position: relative;
+        top: -90px;
+        left: 5px;
+        z-index: 5;
+        @include laptopL {
+          width: 90%;
+        }
+        @include mobile {
+          width: 90%;
+          top: 0px;
+        }
+      }
+    }
+    p {
+      color: #f4f6f0;
+      position: relative;
+      display: flex;
+      width: 45vw;
+      align-items: center;
+      justify-content: end;
+      font-weight: $font-weight-3;
+      font-size: 28px;
+      @include tablet {
+        font-size: 16px;
+        width: 100%;
+      }
+    }
   }
 }

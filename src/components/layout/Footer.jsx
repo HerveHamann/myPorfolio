@@ -21,13 +21,15 @@ const Footer = () => {
           fillOpacity="1"
           d="M0,96L60,117.3C120,139,240,181,360,202.7C480,224,600,224,720,192C840,160,960,96,1080,69.3C1200,43,1320,53,1380,58.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
       </svg>
-      <div className="astronaut-container">
-        <img className="astronaut" src={Astronaut} alt="Astronaut" />
-        <div className="shadow"></div>
+      <div className="footer-container">
+        <div className="astronaut-container">
+          <img className="astronaut" src={Astronaut} alt="Astronaut" />
+          <div className="shadow"></div>
+        </div>
+        <p>
+          Hervé Hamann <br /> Développeur Front end
+        </p>
       </div>
-      <p>
-        Hervé Hamann <br /> Développeur Front end
-      </p>
     </div>
   );
 };
