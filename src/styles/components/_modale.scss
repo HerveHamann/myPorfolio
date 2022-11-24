@@ -39,6 +39,8 @@
     }
   }
   .wolf {
+    width: 201pt;
+    height: 313pt;
     user-select: none;
     background: linear-gradient(to right, $color-1, $color-2);
     @include mobile {
@@ -71,7 +73,3 @@
     z-index: -1;
   }
 }
-
-// @include laptop() {
-//   height: 815px;
-// }

@@ -26,6 +26,14 @@
       top: 15%;
       left: 8vh;
     }
+    @include laptopL {
+      top: 25%;
+      left: 8vh;
+    }
+    @include laptop {
+      top: 25%;
+      left: 8vh;
+    }
     @include tablet {
       top: 25%;
       left: 3vh;

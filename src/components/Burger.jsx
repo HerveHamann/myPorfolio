@@ -14,7 +14,7 @@ const Burger = () => {
         <div className={MenuOpen ? "bar-close" : "bar"}></div>
         <div className={MenuOpen ? "bar-close" : "bar"}></div>
       </div>
-      <div className={MenuOpen ? "dropdown-container" : "dropdown-container hidden"}>
+      <div className={MenuOpen ? "dropdown-container animate" : "dropdown-container hidden"}>
         <ul>
           <li>
             <a href="#presentation" data-scroll-to>
