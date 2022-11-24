@@ -38,6 +38,15 @@
     right: 2vw;
   }
 }
+@media screen and (max-width: 425px) {
+  .home .home-button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 70vh;
+    right: 2vw;
+  }
+}
 @media screen and (max-width: 1025px) {
   .home .home-button svg {
     width: 50px;
@@ -878,327 +887,327 @@
 }
 .about-section .nightsky-background .star:nth-child(0) {
   position: absolute;
-  top: 58%;
-  left: 89%;
+  top: 32%;
+  left: 8%;
 }
 .about-section .nightsky-background .star:nth-child(1) {
   position: absolute;
-  top: 7%;
-  left: 15%;
+  top: 28%;
+  left: 60%;
 }
 .about-section .nightsky-background .star:nth-child(2) {
   position: absolute;
-  top: 53%;
-  left: 51%;
+  top: 80%;
+  left: 18%;
 }
 .about-section .nightsky-background .star:nth-child(3) {
   position: absolute;
-  top: 43%;
-  left: 30%;
+  top: 92%;
+  left: 67%;
 }
 .about-section .nightsky-background .star:nth-child(4) {
   position: absolute;
-  top: 14%;
-  left: 22%;
+  top: 2%;
+  left: 57%;
 }
 .about-section .nightsky-background .star:nth-child(5) {
   position: absolute;
-  top: 27%;
-  left: 74%;
+  top: 39%;
+  left: 59%;
 }
 .about-section .nightsky-background .star:nth-child(6) {
   position: absolute;
-  top: 48%;
-  left: 64%;
+  top: 34%;
+  left: 34%;
 }
 .about-section .nightsky-background .star:nth-child(7) {
   position: absolute;
-  top: 47%;
-  left: 6%;
+  top: 17%;
+  left: 40%;
 }
 .about-section .nightsky-background .star:nth-child(8) {
   position: absolute;
-  top: 66%;
-  left: 22%;
+  top: 26%;
+  left: 64%;
 }
 .about-section .nightsky-background .star:nth-child(9) {
   position: absolute;
-  top: 6%;
-  left: 25%;
+  top: 75%;
+  left: 40%;
 }
 .about-section .nightsky-background .star:nth-child(10) {
   position: absolute;
-  top: 83%;
-  left: 79%;
+  top: 50%;
+  left: 94%;
 }
 .about-section .nightsky-background .star:nth-child(11) {
   position: absolute;
-  top: 31%;
-  left: 32%;
+  top: 80%;
+  left: 6%;
 }
 .about-section .nightsky-background .star:nth-child(12) {
   position: absolute;
-  top: 39%;
-  left: 65%;
+  top: 76%;
+  left: 32%;
 }
 .about-section .nightsky-background .star:nth-child(13) {
   position: absolute;
-  top: 55%;
-  left: 61%;
+  top: 14%;
+  left: 57%;
 }
 .about-section .nightsky-background .star:nth-child(14) {
   position: absolute;
-  top: 21%;
-  left: 95%;
+  top: 26%;
+  left: 59%;
 }
 .about-section .nightsky-background .star:nth-child(15) {
   position: absolute;
-  top: 89%;
-  left: 50%;
+  top: 26%;
+  left: 77%;
 }
 .about-section .nightsky-background .star:nth-child(16) {
   position: absolute;
-  top: 4%;
-  left: 63%;
+  top: 65%;
+  left: 37%;
 }
 .about-section .nightsky-background .star:nth-child(17) {
   position: absolute;
-  top: 48%;
-  left: 43%;
+  top: 75%;
+  left: 49%;
 }
 .about-section .nightsky-background .star:nth-child(18) {
   position: absolute;
-  top: 91%;
-  left: 65%;
+  top: 83%;
+  left: 70%;
 }
 .about-section .nightsky-background .star:nth-child(19) {
   position: absolute;
-  top: 91%;
-  left: 71%;
+  top: 10%;
+  left: 27%;
 }
 .about-section .nightsky-background .star:nth-child(20) {
   position: absolute;
-  top: 61%;
-  left: 33%;
+  top: 72%;
+  left: 17%;
 }
 .about-section .nightsky-background .star:nth-child(21) {
   position: absolute;
-  top: 48%;
-  left: 5%;
+  top: 10%;
+  left: 37%;
 }
 .about-section .nightsky-background .star:nth-child(22) {
   position: absolute;
-  top: 72%;
-  left: 34%;
+  top: 95%;
+  left: 12%;
 }
 .about-section .nightsky-background .star:nth-child(23) {
   position: absolute;
-  top: 81%;
-  left: 42%;
+  top: 18%;
+  left: 7%;
 }
 .about-section .nightsky-background .star:nth-child(24) {
   position: absolute;
-  top: 37%;
-  left: 60%;
+  top: 86%;
+  left: 78%;
 }
 .about-section .nightsky-background .star:nth-child(25) {
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 67%;
+  left: 77%;
 }
 .about-section .nightsky-background .star:nth-child(26) {
   position: absolute;
-  top: 22%;
-  left: 38%;
+  top: 89%;
+  left: 9%;
 }
 .about-section .nightsky-background .star:nth-child(27) {
   position: absolute;
-  top: 95%;
-  left: 92%;
+  top: 72%;
+  left: 69%;
 }
 .about-section .nightsky-background .star:nth-child(28) {
   position: absolute;
-  top: 17%;
-  left: 56%;
+  top: 11%;
+  left: 11%;
 }
 .about-section .nightsky-background .star:nth-child(29) {
   position: absolute;
-  top: 84%;
-  left: 91%;
+  top: 42%;
+  left: 43%;
 }
 .about-section .nightsky-background .star:nth-child(30) {
   position: absolute;
-  top: 48%;
-  left: 25%;
+  top: 64%;
+  left: 67%;
 }
 .about-section .nightsky-background .star:nth-child(31) {
   position: absolute;
-  top: 47%;
-  left: 72%;
+  top: 57%;
+  left: 29%;
 }
 .about-section .nightsky-background .star:nth-child(32) {
   position: absolute;
-  top: 20%;
-  left: 67%;
+  top: 1%;
+  left: 96%;
 }
 .about-section .nightsky-background .star:nth-child(33) {
   position: absolute;
-  top: 3%;
-  left: 3%;
+  top: 40%;
+  left: 58%;
 }
 .about-section .nightsky-background .star:nth-child(34) {
   position: absolute;
-  top: 90%;
-  left: 71%;
+  top: 9%;
+  left: 5%;
 }
 .about-section .nightsky-background .star:nth-child(35) {
   position: absolute;
-  top: 68%;
-  left: 30%;
+  top: 93%;
+  left: 12%;
 }
 .about-section .nightsky-background .star.is-inview:nth-child(0) {
-  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(1) {
-  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(2) {
-  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(3) {
   -webkit-animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+.about-section .nightsky-background .star.is-inview:nth-child(1) {
+  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(2) {
+  -webkit-animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(3) {
+  -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
 .about-section .nightsky-background .star.is-inview:nth-child(4) {
-  -webkit-animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(5) {
-  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(6) {
-  -webkit-animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(7) {
   -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+.about-section .nightsky-background .star.is-inview:nth-child(7) {
+  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
 .about-section .nightsky-background .star.is-inview:nth-child(8) {
-  -webkit-animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 2s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 2s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(9) {
   -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(10) {
+  -webkit-animation: apparer 10s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 10s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(11) {
+  -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(12) {
   -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-.about-section .nightsky-background .star.is-inview:nth-child(11) {
-  -webkit-animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(12) {
-  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
 .about-section .nightsky-background .star.is-inview:nth-child(13) {
-  -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 10s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 10s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(14) {
   -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(15) {
-  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(16) {
-  -webkit-animation: apparer 10s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 10s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 2s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 2s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(17) {
-  -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(18) {
   -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(19) {
-  -webkit-animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(20) {
   -webkit-animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(21) {
-  -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(22) {
-  -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(23) {
-  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(24) {
-  -webkit-animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 8s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(25) {
   -webkit-animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-.about-section .nightsky-background .star.is-inview:nth-child(26) {
-  -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+.about-section .nightsky-background .star.is-inview:nth-child(22) {
+  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-.about-section .nightsky-background .star.is-inview:nth-child(27) {
+.about-section .nightsky-background .star.is-inview:nth-child(23) {
   -webkit-animation: apparer 2s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 2s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-.about-section .nightsky-background .star.is-inview:nth-child(28) {
-  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(29) {
-  -webkit-animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(30) {
-  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(31) {
-  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(32) {
-  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.about-section .nightsky-background .star.is-inview:nth-child(33) {
+.about-section .nightsky-background .star.is-inview:nth-child(24) {
   -webkit-animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 4s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(25) {
+  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(26) {
+  -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(27) {
+  -webkit-animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 6s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(28) {
+  -webkit-animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(29) {
+  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(30) {
+  -webkit-animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 7s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(31) {
+  -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(32) {
+  -webkit-animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 3s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.about-section .nightsky-background .star.is-inview:nth-child(33) {
+  -webkit-animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(34) {
   -webkit-animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
           animation: apparer 9s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .about-section .nightsky-background .star.is-inview:nth-child(35) {
-  -webkit-animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
-          animation: apparer 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: apparer 1s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 @-webkit-keyframes apparer {
   0% {
