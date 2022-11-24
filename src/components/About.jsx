@@ -32,7 +32,7 @@ const About = () => {
             <br />
             Depuis l'enfance, j'ai toujours été curieux d'apprendre ce qui m'a conduit à m'intéresser à une multitude de
             sujets, sciences et droit à travers mes études ou histoire et généalogie à travers mes loisirs. Le
-            développement web nécéssite un apprentissage continuel pour se perfectionner et j'en suis ravi.
+            développement web nécessite un apprentissage continuel pour se perfectionner et j'en suis ravi.
           </p>
           <p data-scroll data-scroll-repeat="true">
             <span data-scroll data-scroll-repeat="true">

@@ -10,7 +10,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  @include laptopL {
+    align-items: flex-start;
+  }
   .container {
     display: flex;
     align-items: center;
@@ -18,7 +20,9 @@
     height: 50%;
     @include laptopL {
       flex-direction: column;
+      margin-top: 50px;
     }
+
     .modale-text {
       margin-top: 50px;
       margin-left: 25px;
@@ -39,12 +43,12 @@
     }
   }
   .wolf {
-    width: 201pt;
-    height: 313pt;
+    object-fit: cover;
     user-select: none;
     background: linear-gradient(to right, $color-1, $color-2);
+
     @include mobile {
-      width: 150%;
+      width: 153.5%;
     }
   }
 }

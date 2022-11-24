@@ -195,10 +195,25 @@
 
     .meteora-container.is-inview {
       animation: fall 5s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
+      @include mobile {
+        animation: littlefall 5s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
     }
     @keyframes fall {
       0% {
         transform: translate(1000%, -1000%);
+      }
+      75% {
+        opacity: 1;
+        transform: translate(0%, 0%);
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes littlefall {
+      0% {
+        transform: translate(200%, -200%);
       }
       75% {
         opacity: 1;

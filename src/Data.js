@@ -50,7 +50,7 @@ const Data = [
     description: "Site web pour une plateforme de photographes.",
     technologies: "html5, css3, javascript, git, github.",
     technique:
-      "Création complète du front end du site: Fetching de la data des photographes et leurs galeries, Factory patern, développement des fonctionnalités (modale de contact, like des photos, lightbox, tri de la galerie), Mise en place de l'accéssibilité du site (normes WCAG,label aria..).",
+      "Création complète du front end du site: Fetching de la data des photographes et leurs galeries, Factory patern, développement des fonctionnalités (modale de contact, like des photos, lightbox, tri de la galerie), Mise en place de l'accessibilité du site (normes WCAG,label aria..).",
     image: Fisheye,
     siteurl: "https://hervehamann.github.io/HerveHamann_6_23112021/",
     githuburl: "https://github.com/HerveHamann/HerveHamann_6_23112021",
@@ -61,7 +61,7 @@ const Data = [
     description: "Site de recherche de recettes de cuisine.",
     technologies: "html5, css3, javascript, git, github.",
     technique:
-      "Implémentation d'un algorythme de recherche permettant la recherche par titre, ingrédients, appareils, ustensilles et tags. Deux versions de l'algorythme de recherche ont été crées (boucle for vs filter method ) pour une comparaison de performance à travers une fiche d'investigation de la fonctionnalité. ",
+      "Implémentation d'un algorythme de recherche permettant la recherche par titre, ingrédients, appareils, ustensilles et tags. Deux versions de l'algorythme de recherche ont été créées (boucle for vs filter method ) pour une comparaison de performance à travers une fiche d'investigation de la fonctionnalité. ",
     image: Lespetitsplats,
     siteurl: "https://hervehamann.github.io/HerveHamann_7_21122021/",
     githuburl: "https://github.com/HerveHamann/HerveHamann_7_21122021",
@@ -81,7 +81,7 @@ const Data = [
   {
     id: 6,
     title: "Learn@home",
-    description: "Définition des besoins d'une application de soutient scolaire.",
+    description: "Définition des besoins d'une application de soutien scolaire.",
     technologies: "figma, méthodologie agile, git, github.",
     technique:
       "Définition des besoins des utilisateurs via la création de user's stories, diagramme de cas d'usage, tableau Kanban, application de la méthodologie agile, réalisation de la maquette de l'application. ",
@@ -129,7 +129,7 @@ const Data = [
     description: "Migration d'une application Saas RH de Jquery vers React.",
     technologies: "html5, css3, javascript, react, git, github.",
     technique:
-      "Réalisation de l'ensemble des 4 composants react constituants l'application, transformation du composant date-picker en librairie et envoie sur npm pour le réimplanter dans l'application. Réalisation de test de performance Lighthouse pour apprécier le gain de performances.",
+      "Réalisation de l'ensemble des 4 composants react constituant l'application, transformation du composant date-picker en librairie et envoie sur npm pour le réimplanter dans l'application. Réalisation de test de performance Lighthouse pour apprécier le gain de performances.",
     image: Hrnet,
     siteurl: "https://hervehamann.github.io/hrnetdeployment/",
     githuburl: "https://github.com/HerveHamann/hrnet",

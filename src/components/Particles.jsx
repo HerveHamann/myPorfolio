@@ -11,6 +11,7 @@ const ParticlesComponent = () => {
         enable: true,
         zIndex: 9,
       },
+
       interactivity: {
         events: {
           onClick: {
@@ -60,6 +61,48 @@ const ParticlesComponent = () => {
           type: "polygon",
         },
       },
+      responsive: [
+        {
+          maxWidth: 426,
+          options: {
+            particles: {
+              number: {
+                value: 10,
+              },
+            },
+          },
+        },
+        {
+          maxWidth: 550,
+          options: {
+            particles: {
+              number: {
+                value: 15,
+              },
+            },
+          },
+        },
+        {
+          maxWidth: 768,
+          options: {
+            particles: {
+              number: {
+                value: 35,
+              },
+            },
+          },
+        },
+        {
+          maxWidth: 1024,
+          options: {
+            particles: {
+              number: {
+                value: 50,
+              },
+            },
+          },
+        },
+      ],
     };
   }, []);
   const particlesInit = useCallback((engine) => {
