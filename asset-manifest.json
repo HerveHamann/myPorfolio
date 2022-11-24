@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/myPorfolio/static/css/main.d11877a5.css",
+    "main.js": "/myPorfolio/static/js/main.9a2b02d3.js",
+    "static/media/photoHerve.png": "/myPorfolio/static/media/photoHerve.a80ff5bd4781cde145e3.png",
+    "static/media/Kasa.png": "/myPorfolio/static/media/Kasa.43d7a9e6c77850a020f6.png",
+    "static/media/Ohmyfood.png": "/myPorfolio/static/media/Ohmyfood.e89f80ba3bb4165b13a9.png",
+    "static/media/GameOn.png": "/myPorfolio/static/media/GameOn.865f80ca0c76392e272a.png",
+    "static/media/Reservia.png": "/myPorfolio/static/media/Reservia.fa2203476807bffb3543.png",
+    "static/media/Fisheye.png": "/myPorfolio/static/media/Fisheye.08476d620c0801a218d4.png",
+    "static/media/CVHerveHamann.pdf": "/myPorfolio/static/media/CVHerveHamann.4d51aee9cc1ee144f3dd.pdf",
+    "static/media/Lespetitsplats.png": "/myPorfolio/static/media/Lespetitsplats.3ed8505cee98c5253932.png",
+    "static/media/Sportsee.png": "/myPorfolio/static/media/Sportsee.8f2faa4426edfac43d4c.png",
+    "static/media/Argentbank.png": "/myPorfolio/static/media/Argentbank.e91690ce3af7fa0c9505.png",
+    "static/media/wolf.svg": "/myPorfolio/static/media/wolf.187b7649fdf395f2caac8f1270a2bac0.svg",
+    "static/media/wolfLogo.svg": "/myPorfolio/static/media/wolfLogo.9a28c52f5481586b24142a02c9e76ae4.svg",
+    "static/media/Astronaut.png": "/myPorfolio/static/media/Astronaut.84f3861ae687079cf43f.png",
+    "static/media/Hrnet.png": "/myPorfolio/static/media/Hrnet.a5eb47f128d459faf5ff.png",
+    "static/media/Learnathome.png": "/myPorfolio/static/media/Learnathome.d0f801f2db1e05aacf09.png",
+    "static/media/Billed.png": "/myPorfolio/static/media/Billed.567136a0b8f050609c85.png",
+    "static/media/Piiquante.png": "/myPorfolio/static/media/Piiquante.a310f9963b1b379ac841.png",
+    "static/media/comet.svg": "/myPorfolio/static/media/comet.8703c43c8a4973b71d5794f04d8bc111.svg",
+    "index.html": "/myPorfolio/index.html",
+    "main.d11877a5.css.map": "/myPorfolio/static/css/main.d11877a5.css.map",
+    "main.9a2b02d3.js.map": "/myPorfolio/static/js/main.9a2b02d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d11877a5.css",
+    "static/js/main.9a2b02d3.js"
+  ]
+}
