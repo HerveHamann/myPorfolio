@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   @include mobile {
     height: 1071px;
   }
@@ -132,7 +133,7 @@
         }
         .linkedin {
           background: $color-4;
-          border: #f4f6f0 2px solid;
+          border: $color-6 2px solid;
           border-radius: 15%;
           transition: 1000ms;
           cursor: pointer;
@@ -151,7 +152,7 @@
             10px 0 20px $color-2;
         }
         .github {
-          background: #f4f6f0;
+          background: $color-6;
           border-radius: 100%;
           transition: 1000ms;
           cursor: pointer;
@@ -172,9 +173,9 @@
           padding: 7px 4px;
           font-size: 44px;
           font-weight: $font-weight-3;
-          color: #f4f6f0;
+          color: $color-6;
           background: $color-4;
-          border: #f4f6f0 2px solid;
+          border: $color-6 2px solid;
           border-radius: 15%;
           transition: 1000ms;
           cursor: pointer;

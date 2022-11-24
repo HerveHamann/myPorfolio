@@ -1,8 +1,6 @@
 .fourthtrans-container {
   width: 100%;
   height: 20vh;
-
   clip-path: polygon(0% 0%, 100% 70.8%, 100% 100%, 0% 100%);
   background: $color-3;
-  //   background: linear-gradient(to right, $color-3 55%, $color-1 67%, $color-2 70%);
 }

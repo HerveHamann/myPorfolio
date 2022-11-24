@@ -75,13 +75,13 @@
       align-items: center;
       display: flex;
       flex-direction: column;
-      border-bottom: #f4f6f0 2px solid;
+      border-bottom: $color-6 2px solid;
       position: relative;
       margin: 30px 0;
 
       //Field class
       input {
-        color: #f4f6f0;
+        color: $color-6;
         width: 100%;
         padding: 0 5px;
         height: 40px;
@@ -95,7 +95,7 @@
       }
 
       textarea {
-        color: #f4f6f0;
+        color: $color-6;
         width: 100%;
         width: 100%;
         padding: 0 5px;
@@ -112,7 +112,7 @@
 
       //inactive elements
       .input-inactive {
-        color: #f4f6f0;
+        color: $color-6;
         align-self: flex-start;
         font-size: 32px;
         position: absolute;
@@ -213,7 +213,7 @@
     }
     input[type="submit"] {
       margin-top: 2vh;
-      color: #f4f6f0;
+      color: $color-6;
       width: 50%;
       font-size: 32px;
       border: none;

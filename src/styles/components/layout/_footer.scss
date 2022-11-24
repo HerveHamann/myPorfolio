@@ -71,12 +71,12 @@
       }
     }
     p {
-      color: #f4f6f0;
+      color: $color-6;
       position: relative;
       display: flex;
       width: 45vw;
       align-items: center;
-      justify-content: end;
+      justify-content: flex-end;
       font-weight: $font-weight-3;
       font-size: 28px;
       @include tablet {

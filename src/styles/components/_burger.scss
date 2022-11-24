@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+
   @include laptopmax {
     display: none;
   }
@@ -43,6 +44,9 @@
       top: -16px;
     }
   }
+  .hidden {
+    visibility: hidden;
+  }
   .dropdown-container {
     height: 225px;
     width: 200px;
@@ -55,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100;
+
     ul {
       margin-top: 0;
       margin-bottom: 20px;
