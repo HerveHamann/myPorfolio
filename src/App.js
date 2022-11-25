@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       SetShowIntro(false);
-    }, 10000);
+    }, 7500);
   });
   return (
     <div>

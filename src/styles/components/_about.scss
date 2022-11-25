@@ -44,7 +44,7 @@
     }
     @for $i from 0 through 35 {
       .star.is-inview:nth-child(#{$i}) {
-        animation: apparer random(10) + s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation: apparer random(10) + s 0.8s both cubic-bezier(0.215, 0.61, 0.355, 1);
       }
     }
 
@@ -106,12 +106,11 @@
       }
     }
     .moon.is-inview {
-      animation: shining 5s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation: shining 5s 0.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
     }
 
     .text-container {
       line-height: 2;
-      // height: 80%;
       width: 80%;
       padding: 0 0 0 5%;
       @include laptop {
@@ -144,7 +143,7 @@
         }
       }
       h2.is-inview {
-        transition-delay: 0s;
+        transition-delay: 0.8s;
         opacity: 1;
         transform: none;
         color: $color-6;
@@ -186,7 +185,7 @@
         }
       }
       p.is-inview {
-        animation: shining 5s 3s both cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation: shining 5s 1s both cubic-bezier(0.215, 0.61, 0.355, 1);
       }
       @keyframes shining {
         0% {

@@ -20,13 +20,13 @@ const Presentation = () => {
             Je conte des histoires avec du code
           </h2>
           <p className="appear" data-scroll data-scroll-repeat="true">
-            Je suis développeur front end, je crée des expériences,
+            <br /> Je suis développeur front end, je crée des expériences,
             <br /> des aventures uniques qui laissent leurs marques
             <br /> sur ceux qui voyagent à travers mes projets .
           </p>
           <div className="discover">
             <h2 className="appear" data-scroll data-scroll-repeat="true">
-              Découvrez mon travail{" "}
+              Découvrez mon travail
             </h2>
             <div className="arrow-container" data-scroll data-scroll-repeat="true">
               <svg

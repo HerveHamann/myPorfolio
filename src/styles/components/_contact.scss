@@ -83,6 +83,9 @@
           position: absolute;
           transform: rotate3d(1, 0.3, 0, 75deg);
           filter: blur(1px);
+          @include laptopVL {
+            border: $color-4 solid 40px;
+          }
           @media screen and (max-width: 1740px) {
             border: $color-4 solid 30px;
           }

@@ -16,6 +16,7 @@
     align-items: center;
 
     .wolf {
+      height: 85px;
       user-select: none;
       background: linear-gradient(to right, $color-1, $color-2);
     }

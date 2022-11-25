@@ -95,8 +95,10 @@
     height: min-content;
     align-items: center;
     width: 80%;
+    margin-bottom: 50px;
+
+    row-gap: 4vh;
     @include laptopVL {
-      row-gap: 5vh;
       width: 100%;
     }
 
@@ -114,17 +116,19 @@
       }
       @include tablet {
         height: 900px;
+        row-gap: 15px;
       }
       @include mobile {
         width: 98%;
         height: 800px;
       }
       img {
-        width: 366px;
+        width: 370px;
         height: 100%;
         object-fit: contain;
         background: linear-gradient(to right, $color-1, $color-2);
         border-radius: 15px;
+        box-shadow: black 0px 8px 16px 1px;
         @include laptop {
           width: 266px;
         }
@@ -173,6 +177,12 @@
             @include laptop {
               font-size: 16px;
             }
+          }
+        }
+        .technologie {
+          span {
+            text-transform: uppercase;
+            font-weight: $font-weight-3;
           }
         }
         .no-disponibility {

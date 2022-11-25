@@ -3,7 +3,6 @@
   height: 260px;
   display: flex;
   background: $color-3;
-  position: relative;
 
   .suncontainer {
     width: 300px;
@@ -65,7 +64,7 @@
     }
 
     .sun.is-inview {
-      transition-delay: 1.5s;
+      transition-delay: 0.3s;
       transform: translateY(105%);
       @include mobile {
         transform: translateY(150%);
@@ -112,7 +111,7 @@
 }
 
 .is-inview.firsttrans-container::after {
-  animation: sundown 2.5s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation: sundown 0.8s 1.5s both cubic-bezier(0.215, 0.61, 0.355, 1);
   @include laptop {
     animation: none;
   }

@@ -42,7 +42,7 @@ const Projets = ({ Data }) => {
                 En résumé : <span>{projet.description} </span>
               </p>
               <br />
-              <p>
+              <p className="technologie">
                 Technologies : <span>{projet.technologies}</span>{" "}
               </p>
               <br />

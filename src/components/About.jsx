@@ -21,7 +21,7 @@ const About = () => {
             <br />
             Jeune reconverti dans la Tech de 34 ans. J'ai décidé de me spécialiser dans le développement front-end. Mon
             but est de créer des sites web et des applications uniques et innovantes. Ma philosophie s'articule en 3
-            points:
+            points :
           </p>
 
           <p data-scroll data-scroll-repeat="true">

@@ -5,12 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     border: none;
     position: fixed;
-    top: 90vh;
+    top: 85vh;
     right: 2vw;
     z-index: 100;
     background: linear-gradient(to bottom, $color-1, $color-5);
@@ -18,7 +18,7 @@
       width: 50px;
       height: 50px;
       position: fixed;
-      top: 85vh;
+      top: 70vh;
       right: 2vw;
     }
     @include mobile {
@@ -30,6 +30,8 @@
     }
 
     svg {
+      width: 75px;
+      height: 75px;
       @include laptop {
         width: 50px;
         height: 50px;
