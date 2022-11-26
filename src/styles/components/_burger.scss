@@ -18,16 +18,20 @@
     flex-direction: column;
     row-gap: 12px;
     cursor: pointer;
-
+    @include mobile {
+      height: 75px;
+      width: 75px;
+      row-gap: 9px;
+    }
     .bar {
       transform: scale(100%);
       transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
-      width: 50px;
+      width: 50%;
       height: 4px;
       background: linear-gradient(to right, $color-1, $color-2);
     }
     .bar-close {
-      width: 50px;
+      width: 50%;
       height: 4px;
       background: linear-gradient(to right, $color-1, $color-2);
     }
@@ -36,6 +40,9 @@
       transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
       position: relative;
       top: 15px;
+      @include mobile {
+        top: 12px;
+      }
     }
     .bar-close:nth-child(2) {
       visibility: hidden;
@@ -45,6 +52,9 @@
       transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
       position: relative;
       top: -16px;
+      @include mobile {
+        top: -13.5px;
+      }
     }
   }
   .hidden {
@@ -64,16 +74,14 @@
   }
 
   .dropdown-container {
-    height: 170px;
-    width: 200px;
+    height: 130px;
+    width: 130px;
     position: absolute;
-    top: 75px;
-    left: -100px;
+    top: 25px;
+    left: -110px;
     background: $color-3;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: $color-4 2px solid;
+    border: $color-5 2px solid;
     border-radius: 15px;
 
     ul {
@@ -84,14 +92,14 @@
       color: $color-4;
       user-select: none;
       flex-direction: column;
-      justify-content: space-between;
-      row-gap: 10px;
+      justify-content: center;
+      row-gap: 8px;
 
       li {
         a {
           font-weight: $font-weight-1;
           color: $color-4;
-          font-size: 18px;
+          font-size: 14px;
           cursor: pointer;
         }
 

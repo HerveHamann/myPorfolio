@@ -8,8 +8,14 @@
   flex-direction: column;
   position: relative;
   min-height: 1300px;
+  @include tablet {
+    min-height: 1100px;
+  }
+  @media screen and (max-width: 569px) {
+    min-height: 1300px;
+  }
   @include mobile {
-    height: 945px;
+    min-height: 1000px;
   }
   .nightsky-background {
     width: 100%;
@@ -33,13 +39,26 @@
         width: 15px;
         height: 15px;
       }
+      @include mobile {
+        width: 10px;
+        height: 10px;
+      }
     }
 
     @for $i from 0 through 35 {
       .star:nth-child(#{$i}) {
         position: absolute;
         top: random(95) * 1%;
-        left: random(96) * 1%;
+        left: random(95) * 1%;
+        @include laptopL {
+          left: random(90) * 1%;
+        }
+        @include tablet {
+          left: -5 + random(90) * 1%;
+        }
+        @include mobile {
+          left: -10 + random(90) * 1%;
+        }
       }
     }
     @for $i from 0 through 35 {
@@ -136,7 +155,7 @@
           font-size: 32px;
         }
         @include tablet {
-          font-size: 18px;
+          font-size: 20px;
         }
         @include mobile {
           font-size: 18px;
@@ -159,7 +178,7 @@
           font-size: 20px;
         }
         @include tablet {
-          font-size: 16px;
+          font-size: 18px;
         }
         @include mobile {
           font-size: 16px;
@@ -178,7 +197,7 @@
           font-size: 16px;
         }
         @include tablet {
-          font-size: 14px;
+          font-size: 16px;
         }
         @include mobile {
           font-size: 14px;

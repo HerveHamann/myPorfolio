@@ -7,11 +7,13 @@
   min-height: 1000px;
 
   @include tablet {
-    height: 100vh;
     align-items: flex-start;
     height: 50vh;
-    min-height: 500px;
+    min-height: 600px;
     margin-top: 10px;
+  }
+  @include mobile {
+    min-height: 550px;
   }
   .container {
     display: flex;

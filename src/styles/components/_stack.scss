@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  @include mobile {
+  @include tablet {
     height: fit-content;
   }
   .container {
@@ -245,6 +245,10 @@
         position: relative;
         top: 0%;
         left: 0%;
+      }
+      @include tablet {
+        margin-top: 10px;
+        font-size: 30px;
       }
       @include mobile {
         font-size: 24px;

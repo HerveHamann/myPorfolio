@@ -8,13 +8,15 @@
   align-items: center;
   justify-content: space-around;
   @include laptop {
-    min-height: 250px;
+    min-height: 165px;
   }
   .logocontainer {
     user-select: none;
     display: flex;
     align-items: center;
-
+    @include mobile {
+      width: 65%;
+    }
     .wolf {
       height: 85px;
       user-select: none;
@@ -29,6 +31,13 @@
       -webkit-text-fill-color: transparent;
       @include laptopL {
         font-size: 24px;
+      }
+      @include laptop {
+        padding-left: 10px;
+        font-size: 20px;
+      }
+      @include tablet {
+        font-size: 18px;
       }
       @include mobile {
         font-size: 16px;

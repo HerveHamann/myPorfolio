@@ -17,27 +17,52 @@ const Burger = () => {
       <div className={MenuOpen ? "dropdown-container animate" : "dropdown-container hidden"}>
         <ul>
           <li>
-            <a href="#presentation" data-scroll-to>
+            <a
+              onClick={() => {
+                MenuOpen ? SetMenuOpen(false) : SetMenuOpen(true);
+              }}
+              href="#presentation"
+              data-scroll-to>
               Présentation
             </a>
           </li>
           <li>
-            <a href="#about" data-scroll-to>
+            <a
+              onClick={() => {
+                MenuOpen ? SetMenuOpen(false) : SetMenuOpen(true);
+              }}
+              href="#about"
+              data-scroll-to>
               A propos
             </a>
           </li>
           <li>
-            <a href="#stack" data-scroll-to>
+            <a
+              onClick={() => {
+                MenuOpen ? SetMenuOpen(false) : SetMenuOpen(true);
+              }}
+              href="#stack"
+              data-scroll-to>
               Stack & Skills
             </a>
           </li>
           <li>
-            <a href="#projet" data-scroll-to>
+            <a
+              onClick={() => {
+                MenuOpen ? SetMenuOpen(false) : SetMenuOpen(true);
+              }}
+              href="#projet"
+              data-scroll-to>
               Projets
             </a>
           </li>
           <li>
-            <a href="#contact" data-scroll-to>
+            <a
+              onClick={() => {
+                MenuOpen ? SetMenuOpen(false) : SetMenuOpen(true);
+              }}
+              href="#contact"
+              data-scroll-to>
               Contact
             </a>
           </li>
