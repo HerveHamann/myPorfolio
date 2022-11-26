@@ -165,6 +165,9 @@
           @include laptop {
             font-size: 24px;
           }
+          @include mobile {
+            font-size: 20px;
+          }
         }
         p {
           font-weight: $font-weight-3;
@@ -173,12 +176,18 @@
           @include laptop {
             font-size: 16px;
           }
+          @include mobile {
+            font-size: 14px;
+          }
 
           span {
             color: $color-3;
             font-size: 20px;
             @include laptop {
               font-size: 16px;
+            }
+            @include mobile {
+              font-size: 14px;
             }
           }
         }
@@ -191,6 +200,9 @@
         .no-disponibility {
           color: $color-3;
           font-size: 15px;
+          @include mobile {
+            font-size: 10px;
+          }
         }
         a {
           align-self: center;
