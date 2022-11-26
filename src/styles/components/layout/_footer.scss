@@ -7,7 +7,9 @@
   height: 580px;
   position: relative;
   background: $color-3;
-
+  @include mobile {
+    height: 280px;
+  }
   .maybe-earth {
     transform: translateY(45%);
     position: absolute;
