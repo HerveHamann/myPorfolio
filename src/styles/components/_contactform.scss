@@ -106,7 +106,6 @@
         resize: none;
         @include laptop {
           font-size: 18px;
-          border: red solid 1px;
           @include mobile {
             height: 200px;
           }
