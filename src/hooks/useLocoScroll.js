@@ -9,8 +9,8 @@ export default function useLocoScroll() {
       el: scrollEl,
       smooth: true,
       multiplier: 1.5,
-      tablet: { smooth: true, breakpoint: 0 },
-      smartphone: { smouth: true, breakpoint: 0 },
+      tablet: { smooth: true, multiplier: 1.5, breakpoint: 0 },
+      smartphone: { smouth: true, multiplier: 2, breakpoint: 0 },
     });
     const observer = new ResizeObserver(() => locoScroll.update()).observe(
       document.querySelector("[data-scroll-container]")
