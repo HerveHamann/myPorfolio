@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myPorfolio/static/css/main.7b6c6b13.css",
-    "main.js": "/myPorfolio/static/js/main.20d1cfa1.js",
+    "main.css": "/myPorfolio/static/css/main.8c5724cd.css",
+    "main.js": "/myPorfolio/static/js/main.2411e8c9.js",
     "static/media/photoHerve.png": "/myPorfolio/static/media/photoHerve.a80ff5bd4781cde145e3.png",
     "static/media/Kasa.png": "/myPorfolio/static/media/Kasa.43d7a9e6c77850a020f6.png",
     "static/media/Ohmyfood.png": "/myPorfolio/static/media/Ohmyfood.e89f80ba3bb4165b13a9.png",
     "static/media/GameOn.png": "/myPorfolio/static/media/GameOn.865f80ca0c76392e272a.png",
     "static/media/Reservia.png": "/myPorfolio/static/media/Reservia.fa2203476807bffb3543.png",
     "static/media/Fisheye.png": "/myPorfolio/static/media/Fisheye.08476d620c0801a218d4.png",
-    "static/media/CVHerveHamann.pdf": "/myPorfolio/static/media/CVHerveHamann.4d51aee9cc1ee144f3dd.pdf",
+    "static/media/CVHerveHamann.pdf": "/myPorfolio/static/media/CVHerveHamann.762e64083a044157fa55.pdf",
     "static/media/Lespetitsplats.png": "/myPorfolio/static/media/Lespetitsplats.3ed8505cee98c5253932.png",
     "static/media/Sportsee.png": "/myPorfolio/static/media/Sportsee.8f2faa4426edfac43d4c.png",
     "static/media/Argentbank.png": "/myPorfolio/static/media/Argentbank.e91690ce3af7fa0c9505.png",
@@ -21,11 +21,11 @@
     "static/media/Piiquante.png": "/myPorfolio/static/media/Piiquante.a310f9963b1b379ac841.png",
     "static/media/comet.svg": "/myPorfolio/static/media/comet.8703c43c8a4973b71d5794f04d8bc111.svg",
     "index.html": "/myPorfolio/index.html",
-    "main.7b6c6b13.css.map": "/myPorfolio/static/css/main.7b6c6b13.css.map",
-    "main.20d1cfa1.js.map": "/myPorfolio/static/js/main.20d1cfa1.js.map"
+    "main.8c5724cd.css.map": "/myPorfolio/static/css/main.8c5724cd.css.map",
+    "main.2411e8c9.js.map": "/myPorfolio/static/js/main.2411e8c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b6c6b13.css",
-    "static/js/main.20d1cfa1.js"
+    "static/css/main.8c5724cd.css",
+    "static/js/main.2411e8c9.js"
   ]
 }
