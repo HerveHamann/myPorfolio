@@ -11,6 +11,8 @@ import Argentbank from "./assets/img/Argentbank.png";
 import Hrnet from "./assets/img/Hrnet.png";
 import Piiquante from "./assets/img/Piiquante.png";
 import wolf from "./assets/img/wolf.svg";
+import poketeo from "./assets/img/Poketeo.png";
+
 const Data = [
   {
     id: 0,
@@ -156,6 +158,17 @@ const Data = [
     image: wolf,
     siteurl: "",
     githuburl: "https://github.com/HerveHamann/myPorfolio",
+  },
+  {
+    id: 13,
+    title: "Poketeo",
+    description: "Un site pour connaitre la météo et avec quel pokémon sortir",
+    technologies: "html5, css3, typescript, react, git, github.",
+    technique:
+      "Alliance de React et Typescript et appeler des API (Openwheater et PokéApi) pour créer un site de recherche météo original",
+    image: poketeo,
+    siteurl: "https://hervehamann.github.io/Poketeo/",
+    githuburl: "https://github.com/HerveHamann/Poketeo",
   },
 ];
 export default Data;
