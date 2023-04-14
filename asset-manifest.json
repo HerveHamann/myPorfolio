@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myPorfolio/static/css/main.4bc499bb.css",
-    "main.js": "/myPorfolio/static/js/main.218f61d2.js",
+    "main.css": "/myPorfolio/static/css/main.86bb8260.css",
+    "main.js": "/myPorfolio/static/js/main.2aed76c0.js",
     "static/media/photoHerve.png": "/myPorfolio/static/media/photoHerve.a80ff5bd4781cde145e3.png",
     "static/media/Kasa.png": "/myPorfolio/static/media/Kasa.43d7a9e6c77850a020f6.png",
     "static/media/Ohmyfood.png": "/myPorfolio/static/media/Ohmyfood.e89f80ba3bb4165b13a9.png",
     "static/media/GameOn.png": "/myPorfolio/static/media/GameOn.865f80ca0c76392e272a.png",
     "static/media/Reservia.png": "/myPorfolio/static/media/Reservia.fa2203476807bffb3543.png",
     "static/media/Fisheye.png": "/myPorfolio/static/media/Fisheye.08476d620c0801a218d4.png",
-    "static/media/CVHerveHamann.pdf": "/myPorfolio/static/media/CVHerveHamann.1d28fa30bc9a7b17fc21.pdf",
+    "static/media/CVHerveHamann.pdf": "/myPorfolio/static/media/CVHerveHamann.6794b02b5f0276873d22.pdf",
     "static/media/Lespetitsplats.png": "/myPorfolio/static/media/Lespetitsplats.3ed8505cee98c5253932.png",
     "static/media/Poketeo.png": "/myPorfolio/static/media/Poketeo.7bfb2ce5061eb244bd94.png",
     "static/media/Sportsee.png": "/myPorfolio/static/media/Sportsee.8f2faa4426edfac43d4c.png",
@@ -22,11 +22,11 @@
     "static/media/Piiquante.png": "/myPorfolio/static/media/Piiquante.a310f9963b1b379ac841.png",
     "static/media/comet.svg": "/myPorfolio/static/media/comet.8703c43c8a4973b71d5794f04d8bc111.svg",
     "index.html": "/myPorfolio/index.html",
-    "main.4bc499bb.css.map": "/myPorfolio/static/css/main.4bc499bb.css.map",
-    "main.218f61d2.js.map": "/myPorfolio/static/js/main.218f61d2.js.map"
+    "main.86bb8260.css.map": "/myPorfolio/static/css/main.86bb8260.css.map",
+    "main.2aed76c0.js.map": "/myPorfolio/static/js/main.2aed76c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bc499bb.css",
-    "static/js/main.218f61d2.js"
+    "static/css/main.86bb8260.css",
+    "static/js/main.2aed76c0.js"
   ]
 }
